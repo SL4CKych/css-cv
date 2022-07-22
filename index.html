@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- строка яка показує сайту яку версію html ми використовуємо -->
+
+<head>
+    <!-- голова сайту -->
+    <meta charset="UTF-8">
+    <!-- кодировка html сайту, на даний момент UTF-8 це стандарт -->
+    <title>SL4CK CV</title>
+    <!-- заголовок сайту (те що показується в назві вкладки) -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- строка яка прив'язує html до css -->
+</head>
+
+<body>
+    <div class="container">
+        <!-- тіло сайту -->
+        <div class="info">
+            <img src="Без имени-4.jpg" alt="Моя ава" class="avatar">
+            <!-- alt - якщо картинка недоступна то буде показуватись прописаний текст -->
+
+            <!-- img - тег який додає картинку -->
+                <div class="info-text">
+                <h1>В'ялий Ігор</h1>
+                <!-- h1 це підзаголовок який виділяє текст (існують різновдності, наприклад h2, h3 тощо) -->
+                
+                <!-- p - параграф, em - наклоняє текст -->
+                <p>Маю <em> YouTube канал</em> під назвою <strong> SL4CK.</strong></p>
+                <p><em> Кавовий сомельє.</em></p>
+                <p>Люблю відеоігри, інвестую в криптовалюту, хочу навчитися програмуванню.</p>
+
+                <h4>Мої соц мережі</h4>
+                <a href="https://www.instagram.com/ssl4ck/" target="_blank"> Instagram</a>
+                |
+                <a href="https://steamcommunity.com/id/SlackUA/" target="_blank">Steam</a>
+            
+            </div>
+        </div>
+
+
+
+        <!-- строка яка додає лінію відділяющу якісь блоки сайту -->
+
+
+
+        <div class="card bg-yellow">
+
+            <h2>Мої хоббі</h2>
+            <ol type="1" class="list">
+                <!-- ol - пронумерований список -->
+                <li>Мотоцикли та автомобілі</li>
+                <li>Сноуборди</li>
+                <li>Відеоігри</li>
+            </ol>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Досвід роботи</h2>
+            <table class="table">
+                <!-- border - рамка таблиці -->
+                <thead>
+                    <tr>
+                        <th>Компанія</th>
+                        <th>Посада</th>
+                        <th>Рік</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Maxi Group </td>
+                        <td>Client manager </td>
+                        <td>2019-2020</td>
+                    </tr>
+                    <tr>
+                        <td> Coffee Is </td>
+                        <td>Barista/Admin</td>
+                        <td>2020-2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card bg-red">
+
+            <img src="https://pargo.co.za/wp-content/uploads/2017/08/youtube_logo-1.png" width="200" alt="Лого ютуба">
+
+            <h2> <a target="_blank" href="https://www.youtube.com/channel/UCj63xtAcKVeUWHHW49ALZEA">YouTube канал</a>
+            </h2>
+
+            <h3> <a href="youtube.html"> Дивитися відео</a></h3>
+
+        </div>
+
+        <div class="contact">
+            <h2>Зв'язатися зі мною</h2>
+
+            <form action="">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name" class="text-in-label">Ваше ім'я:</label>
+                        <input type="text" id="name"  placeholder="Почніть вводити ім'я">
+
+
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="text-in-label">Ваш email:</label>
+                        <input type="text" id="email"  placeholder="Почніть вводити email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="text" class="text-in-label">Ваше повідомлення:</label>
+
+                    <textarea id="text"  cols="21" rows="10"> </textarea>
+                </div>
+
+                <input class="btn" type="submit" value="Відправити">
+
+            </form>
+        </div>
+        <div class="position">
+            <div class="box"></div>
+        </div>
+    </div>
+
+<!-- position -->
+
+    
+
+</body>
+
+</html>
